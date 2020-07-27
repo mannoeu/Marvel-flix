@@ -12,7 +12,7 @@ function Navbar() {
       </a>
       <NavContainer>
         <NavItem className="nav-item">
-          <Button path="/" shadow>
+          <Button path="/" shadow primary>
             Novo vídeo
           </Button>
         </NavItem>

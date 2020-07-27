@@ -22,11 +22,11 @@ export const Header = styled.header`
   }
 
   & > a > img {
-    max-width: 160px;
+    max-width: 120px;
 
     @media (max-width: 800px) {
       img {
-        width: 105px;
+        width: 90px;
       }
     }
   }
@@ -49,8 +49,6 @@ export const NavItem = styled.li`
 
   @media (max-width: 800px) {
     & {
-      background: var(--darker);
-
       & > a {
         border: none;
       }

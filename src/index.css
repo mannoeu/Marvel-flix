@@ -6,6 +6,7 @@
 }
 :root {
   --primary: #fff;
+  --color: #dc1a28;
   --secondary: #ececec;
   --darker: #0d0d0d;
   --dark: #141414;
@@ -17,7 +18,7 @@
 }
 body {
   width: 100%;
-  --bodyPaddingTop: 90px;
+  --bodyPaddingTop: 80px;
   padding-top: var(--bodyPaddingTop);
   background: var(--dark);
 }
