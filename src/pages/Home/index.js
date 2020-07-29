@@ -6,7 +6,6 @@ import Carousel from "../../components/Carousel";
 import Loading from "../../components/Loading";
 
 import data from "../../data/application.json";
-import { random } from "../../utils";
 
 function Home() {
   const [loading, setLoading] = useState(true);

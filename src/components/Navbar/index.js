@@ -13,7 +13,7 @@ function Navbar() {
       </Link>
       <NavContainer>
         <NavItem className="nav-item">
-          <Button as={Link} to="/cadastro/video" shadow primary>
+          <Button as={Link} to="/" shadow primary>
             Novo vídeo
           </Button>
         </NavItem>
