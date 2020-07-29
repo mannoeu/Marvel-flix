@@ -10,6 +10,11 @@ export const Button = styled.a`
   font-size: 14px;
   cursor: pointer;
 
+  display: grid;
+  place-items: center;
+
+  width: 140px;
+
   &:hover,
   &:focus {
     background: ${(props) =>

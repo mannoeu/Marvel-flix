@@ -34,34 +34,6 @@ export const ExtraLink = styled.a`
   }
 `;
 
-export const VideoCardList = styled.ul`
-  margin: 0;
-  padding: 0 var(--sm) var(--md) 0;
-  list-style: none;
-  display: flex;
-  overflow-x: auto;
-  flex-direction: row;
-
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-
-  ::-webkit-scrollbar {
-    background: var(--darker);
-    height: 8px;
-    border-radius: 8px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: var(--secondary);
-    height: 8px;
-    border-radius: 8px;
-  }
-
-  li {
-    margin-right: 16px;
-    scroll-snap-align: start;
-  }
-`;
-
 export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;

@@ -1,19 +1,27 @@
-import React from 'react';
-import { FooterBase } from './styles';
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FooterBase, ContainerSocial } from "./styles";
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
-      </a>
-      <p>
-        Orgulhosamente criado durante a
-        {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
+      <p>MARVEL</p>
+      <ContainerSocial>
+        <a
+          href="https://github.com/mannoeu"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <FaGithub /> Github
         </a>
-      </p>
+        <a
+          href="https://www.linkedin.com/in/emmanuel-messias-535621127/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <FaLinkedin /> Linkedin
+        </a>
+      </ContainerSocial>
     </FooterBase>
   );
 }

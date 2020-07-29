@@ -1,50 +1,48 @@
 import React from "react";
+import Slider from "./Slider";
+import { SliderItem } from "./Slider/styles";
+
 import {
   VideoCardGroupContainer,
-  VideoCardList,
   TitleContainer,
   Title,
   ExtraLink,
 } from "./styles";
 import VideoCard from "../VideoCard";
 
-function VideoCardGroup({ ignoreFirstVideo, category }) {
-  const categoryTitle = category.titulo;
-  const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+function Carousel({ ignoreFirstVideo, hero }) {
+  const name = hero.name;
+  const alterEgo = hero.alterEgo;
+  const video = hero.url;
+  const movies = hero.movies;
 
   return (
     <VideoCardGroupContainer>
-      {categoryTitle && (
+      {name && (
         <TitleContainer>
-          <Title>{categoryTitle}</Title>
-          {categoryExtraLink && (
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}
+          <Title>{name}</Title>
+          {alterEgo && (
+            <ExtraLink href={video} target="_blank">
+              {alterEgo}
             </ExtraLink>
           )}
         </TitleContainer>
       )}
-      <VideoCardList>
-        {videos.map((video, index) => {
+      <Slider>
+        {movies.map((movie, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
 
           return (
-            <li key={video.titulo}>
-              <VideoCard
-                videoTitle={video.titulo}
-                videoURL={video.url}
-                categoryColor={categoryColor}
-              />
-            </li>
+            <SliderItem key={movie.id}>
+              <VideoCard movie={movie.img} />
+            </SliderItem>
           );
         })}
-      </VideoCardList>
+      </Slider>
     </VideoCardGroupContainer>
   );
 }
 
-export default VideoCardGroup;
+export default Carousel;

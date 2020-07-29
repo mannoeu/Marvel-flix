@@ -1,18 +1,19 @@
 import React from "react";
-import logo from "../../assets/logo.png";
-
+import { Link } from "react-router-dom";
 import { Button } from "../Button";
 import { Header, NavContainer, NavItem } from "./style";
+
+import logo from "../../assets/logo.png";
 
 function Navbar() {
   return (
     <Header>
-      <a href="/">
+      <Link to="/">
         <img className="logo" src={logo} alt="techflix logo" />
-      </a>
+      </Link>
       <NavContainer>
         <NavItem className="nav-item">
-          <Button path="/" shadow primary>
+          <Button as={Link} to="/cadastro/video" shadow primary>
             Novo vídeo
           </Button>
         </NavItem>

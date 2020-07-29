@@ -1,0 +1,392 @@
+{
+  "heroes": [
+    {
+      "name": "Homem Aranha",
+      "alterEgo": "Peter Parker",
+      "imagePath": "https://images.alphacoders.com/948/948697.jpg",
+      "url": "https://www.youtube.com/watch?v=tcG3Mc4XJpg",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/jAb5cWT.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/JtlryOe.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/qxBYzYS.jpgg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/VbG6QO4.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://i.imgur.com/oMddT5e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Thor",
+      "alterEgo": "Thor Odinson",
+      "imagePath": "https://1.bp.blogspot.com/-KOXVPgcr8Cw/XI0SUT7LvAI/AAAAAAAAAqI/utq8aCykxz4OUVpe5wcVEORWV3J9q5DfgCKgBGAs/w0/avengers-endgame-thor-uhdpaper.com-4K-17.jpg",
+      "url": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/Wrzo2KY.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/boRAFul.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://i.imgur.com/VbwZVOs.jpg"
+        },
+        {
+          "id": 6,
+          "img": "https://i.imgur.com/kFn3Rkv.jpg"
+        },
+        {
+          "id": 7,
+          "img": "https://i.imgur.com/dCdj871.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ant Man",
+      "alterEgo": "Scott Lang",
+      "imagePath": "https://wallpaperaccess.com/full/1101781.jpg",
+      "url": "https://www.youtube.com/watch?v=pWdKf3MneyI",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/HZbY4O9.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/TqGcNKK.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Pantera Negra",
+      "alterEgo": "T'Challa",
+      "imagePath": "https://1.bp.blogspot.com/-KCrrsW34Qww/Xb7eIefxcPI/AAAAAAAAeRo/vfOpTnhJwMUEsjh519MBtMdheXqQ2xBEACLcBGAsYHQ/s2560/black-panther-fanartwork-u9-2560x1440.jpg",
+      "url": "https://www.youtube.com/watch?v=KszSDnO3GGk",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/OwDXUnd.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/DPQEWir.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Homem de Ferro",
+      "alterEgo": "Tony Stark",
+      "imagePath": "https://wallpapercave.com/wp/wp4484219.jpg",
+      "url": "https://www.youtube.com/watch?v=D1p49wrme9Y",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/KsgjXi2.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/73ksSdS.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/bQNTLoB.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/wm0Kax7.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://i.imgur.com/Wrzo2KY.jpg"
+        },
+        {
+          "id": 6,
+          "img": "https://i.imgur.com/boRAFul.jpg"
+        },
+        {
+          "id": 7,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 8,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        },
+        {
+          "id": 9,
+          "img": "https://i.imgur.com/OwDXUnd.jpg"
+        },
+        {
+          "id": 10,
+          "img": "https://i.imgur.com/oMddT5e.jpg"
+        }
+      ]
+    }
+  ],
+  "villains": [
+    {
+      "name": "Caveira Vermelha",
+      "alterEgo": "Jöhann Schmidt",
+      "imagePath": "https://cdn.cinepop.com.br/2018/08/RedSkull.jpg",
+      "url": "https://www.youtube.com/watch?v=XMFXc1vL40M",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/faO0QyH.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Doutor Destino",
+      "alterEgo": "Victor Von Doom",
+      "imagePath": "https://images7.alphacoders.com/870/thumb-1920-870563.jpg",
+      "url": "https://www.youtube.com/watch?v=jAxQykqH5nI",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/yIDCd3B.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/lOUEcB7.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Duende Verde",
+      "alterEgo": "Norman Osborn",
+      "imagePath": "https://ovicio.com.br/wp-content/uploads/maxresdefault-94.jpg",
+      "url": "https://www.youtube.com/watch?v=7faRXv-hvQ8",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/jAb5cWT.jpg"
+        }
+      ]
+    }
+  ],
+  "antiHeroes": [
+    {
+      "name": "Deadpool",
+      "alterEgo": "Wade Wilson",
+      "imagePath": "./chars/deadpool.png",
+      "url": "https://www.youtube.com/watch?v=Q9X-bAE8KTc",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/oOp9p9k.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/VsX43MI.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Venom",
+      "alterEgo": "Eddie Brock",
+      "imagePath": "https://i.pinimg.com/originals/c8/0d/d9/c80dd92709c88706101e74fdb8cb0a1a.jpg",
+      "url": "https://www.youtube.com/watch?v=xLCn88bfW1o",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/mTRhAP1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Justiceiro",
+      "alterEgo": "Francis Castle",
+      "imagePath": "https://www.showmetech.com.br/wp-content/uploads//2017/10/the-punisher-6.jpg",
+      "url": "https://www.youtube.com/watch?v=STuXgXcOVPE",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/f62US0Y.jpg"
+        }
+      ]
+    }
+  ],
+  "aliens": [
+    {
+      "name": "Thanos",
+      "alterEgo": "Deviant",
+      "imagePath": "https://wallpaperaccess.com/full/14865.jpg",
+      "url": "https://www.youtube.com/watch?v=V9upUnVIpOU",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/CTXE9PO.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ronan",
+      "alterEgo": "Kree",
+      "imagePath": "https://i2.wp.com/www.jornadageek.com.br/wp-content/uploads/2018/04/Lee-Pace-como-Ronan-O-Acusador-e1522687444316.jpg?resize=711%2C400&ssl=1",
+      "url": "https://www.youtube.com/watch?v=kUZezmrfKlk",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/6wq1ZZN.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/CTXE9PO.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Talos",
+      "alterEgo": "Skrull",
+      "imagePath": "https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2018/11/mv5boguyyjhmmzktzdu5yy00mdjlltk1mwytn2ziytg0y2i0zte0xkeyxkfqcgdeqxvynzk3nduzntc._v1_sy1000_sx1500_al_.jpg",
+      "url": "https://www.youtube.com/watch?v=sEyqCYf6wxs",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/6wq1ZZN.jpg"
+        }
+      ]
+    }
+  ],
+  "humans": [
+    {
+      "name": "Howard Stark",
+      "alterEgo": "Homem de Ferro",
+      "imagePath": "https://s2.best-wallpaper.net/wallpaper/3840x2160/1904/Iron-Man-flight-hand-city-sky_3840x2160.jpg",
+      "url": "https://www.youtube.com/watch?v=Ot2hkVIiZv0",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/faO0QyH.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/KsgjXi2.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/73ksSdS.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/FGAJiqK.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://i.imgur.com/TqGcNKK.jpg"
+        },
+        {
+          "id": 6,
+          "img": "https://i.imgur.com/OwDXUnd.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mary Jane",
+      "alterEgo": "Homem Aranha",
+      "imagePath": "https://mx.web.img3.acsta.net/r_640_360/newsv7/18/12/05/08/04/5471894.jpg",
+      "url": "https://www.youtube.com/watch?v=wBlPiySGGys",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/jAb5cWT.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/JtlryOe.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/qxBYzYS.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Happy Hogan",
+      "alterEgo": "Homem de Ferro",
+      "imagePath": "https://img.cinemablend.com/quill/b/7/6/f/0/5/b76f05b15173a7884e26db40550204c8888b1597.jpg",
+      "url": "https://www.youtube.com/watch?v=zlP7DtcGz8g",
+      "movies": [
+        {
+          "id": 1,
+          "img": "https://i.imgur.com/KsgjXi2.jpg"
+        },
+        {
+          "id": 2,
+          "img": "https://i.imgur.com/73ksSdS.jpg"
+        },
+        {
+          "id": 3,
+          "img": "https://i.imgur.com/bQNTLoB.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://i.imgur.com/oMddT5e.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://i.imgur.com/12YqKwx.jpg"
+        },
+        {
+          "id": 6,
+          "img": "https://i.imgur.com/Q0PZ49z.jpg"
+        },
+        {
+          "id": 7,
+          "img": "https://i.imgur.com/VbG6QO4.jpg"
+        }
+      ]
+    }
+  ]
+}

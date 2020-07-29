@@ -4,11 +4,7 @@ export const VideoCardContainer = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  flex: 0 0 298px;
-  width: 298px;
-  height: 160px;
-  overflow: hidden;
-  background: red;
+  outline: none;
 
   position: relative;
   display: flex;
@@ -16,6 +12,10 @@ export const VideoCardContainer = styled.a`
 
   opacity: 0.7;
   transition: opacity 0.3s;
+
+  width: 280px;
+  height: 460px;
+
   &:hover,
   &:focus {
     opacity: 1;
@@ -28,10 +28,10 @@ export const VideoCardContainer = styled.a`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
 
     &:hover {
-      transform: scale(1.07);
+      transform: scale(1.06) translateY(-20px);
     }
   }
 `;
